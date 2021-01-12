@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 
 :root {
-    --primary: #ffc764;/*68f3a6;*/
+    --primary: #ffc764;
     --black: #0f0f0f;
     --yellow: #e9e62b;
     --width-break: 500px;
@@ -47,7 +47,7 @@ textarea {
     border: 2px solid var(--primary);
     max-width: 500px;
     margin: auto;
-    
+
 }
 
 button {
@@ -73,12 +73,10 @@ p.blocktext {
     margin-right: auto;
     width: 40rem;
     font-family: 'Source Sans Pro', sans-serif;
-} 
+}
 
 body {
     margin: 0;
     font-family: cursive;
     color: var(--black);
 }
-
-
