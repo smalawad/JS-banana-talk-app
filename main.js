@@ -3,7 +3,7 @@ var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#translate");
 
 
-var serverURL = "https://api.funtranslations.com/translate/navi.json";
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function getTranslationURL(text) {
     return serverURL + "?" + "text=" + text
